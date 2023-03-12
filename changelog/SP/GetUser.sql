@@ -1,10 +1,10 @@
-CREATE OR REPLACE PROCEDURE public.GetCompany(
+CREATE OR REPLACE PROCEDURE public.GetUser(
 	IN id integer)
 LANGUAGE 'plpgsql'
 AS $BODY$
 begin
     -- subtracting the amount from the sender's account 
-    select *,name from company where id = id;
+    select * from userdata where id = id;
 
    commit;
 end;

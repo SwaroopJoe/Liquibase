@@ -8,4 +8,7 @@
 	<changeSet author="SwaroopJ" id="1" runOnChange="true">
 		<sqlFile encoding="UTF-8" path="SP/GetCompany.sql" relativeToChangelogFile="true" endDelimiter="$$" splitStatements="true" stripComments="true"></sqlFile>
 	</changeSet>
+	<changeSet author="SwaroopJ" id="2" runOnChange="true">
+		<sqlFile encoding="UTF-8" path="SP/GetUser.sql" relativeToChangelogFile="true" endDelimiter="$$" splitStatements="true" stripComments="true"></sqlFile>
+	</changeSet>
 </databaseChangeLog>

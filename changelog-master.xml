@@ -7,5 +7,6 @@
     http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd ">
 
     <include file="changelog/changelog-1.0.sql"/>
+	<include file="changelog/changelog-2.0.sql"/>
 	<include file="changelog/proc-changelog.xml"/>
 </databaseChangeLog>
